@@ -21,7 +21,7 @@ class App extends Component {
       </div>
     );
   }
-}
+};
 
 const mapStateToProps = (state) => state
 const mapDispatchToProps = (dispatch) => bindActionCreators({updateCurrent}, dispatch)
